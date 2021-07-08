@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "server.js"
+    "start": "game.js"
   },
   
   "dependencies": {
