@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "game.js"
+    "start": "node game.js"
   },
   
   "dependencies": {
