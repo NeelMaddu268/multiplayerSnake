@@ -1,7 +1,6 @@
 const BG_COLOUR = '#231f20';
 const SNAKE_COLOUR = '#c2c2c2';
 const FOOD_COLOUR = '#e66916';
-alert('Hi');
 
 const socket = io('https://mighty-hamlet-38023.herokuapp.com/');
 
@@ -128,4 +127,5 @@ function reset() {
   gameCodeInput.value = '';
   initialScreen.style.display = "block";
   gameScreen.style.display = "none";
+  location.reload();
 }
