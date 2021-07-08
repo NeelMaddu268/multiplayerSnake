@@ -104,8 +104,9 @@ function handleGameOver(data) {
   if (data.winner === playerNumber) {
     alert('You Win!');
   } else {
-    alert('You Lose :(');
+    alert('You Lose');
   }
+  location.reload();
 }
 
 function handleGameCode(gameCode) {
